@@ -59,8 +59,22 @@ local Button = Tab:CreateButton({
 	end,
 })
 
+
+local Button = Tab:CreateButton({
+	Name = "Faded ⭐",
+	Callback = function()
+        _G.Toggles = "V"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+	end,
+})
+
+
+
+
+
+
 local Tab = Window:CreateTab("Hood Customs ⭐", 4483362458)
-local Section = Tab:CreateSection("Hood Customs AimLock | press C!")
+local Section = Tab:CreateSection("Hood Customs AimLock | press C! (Currently Patched, Im sorry.)")
 
 local Button = Tab:CreateButton({
 	Name = "Hood Customs ⭐",
@@ -280,20 +294,53 @@ local Button = Tab:CreateButton({
             Title = '⭐';
             Text = 'Discord Server Copied to clipboard';
             Duration = 10;
-        })
-        _Sound.Ended:Wait()
-        _Sound:Destroy()
-        setclipboard("https://discord.gg/RQW5yQ7Pv6")
+        })setclipboard("https://discord.gg/RQW5yQ7Pv6")
+        
 
 		end
 
 })
-local Input = Tab:CreateInput({
-	Name = "Keep In Mind These Scripts Are not mine If u need help contact them on they're Discord Server!",
-	PlaceholderText = "EXTRAS",
-	RemoveTextAfterFocusLost = false,
-	Callback = function(Text)
-		-- The function that takes place when the input is changed
-    		-- The variable (Text) is a string for the value in the text box
-	end,
+
+
+
+
+local Button = Tab:CreateButton({
+	Name = "Hoodsense'S Discord Server | Zapped",
+	Callback = function()
+		game.StarterGui:SetCore("SendNotification", {
+            Title = '⭐';
+            Text = 'Discord Server Copied to clipboard';
+            Duration = 10;
+        })setclipboard("https://discord.gg/hoodsense")
+        
+
+		end
+
 })
+
+
+local Button = Tab:CreateButton({
+	Name = "CryspyGo'S Discord Server | Faded",
+	Callback = function()
+		game.StarterGui:SetCore("SendNotification", {
+            Title = '⭐';
+            Text = 'Discord Server Copied to clipboard';
+            Duration = 10;
+        })setclipboard("https://discord.gg/aKaZnQyv2K")
+        
+
+		end
+
+})
+
+
+
+local Tab = Window:CreateTab("Credits", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Credits")
+
+local Label = Tab:CreateLabel("ALL RIGHT DESERVED TO THEM!")
+local Label = Tab:CreateLabel("Zapped Developer Hoodsense AKA Grek")
+local Label = Tab:CreateLabel("SwagMode Developer KE AKA ke (SWAG ADMIN)")
+local Label = Tab:CreateLabel("Faded Developer CryspyGo")
+local Label = Tab:CreateLabel("RayX Developer = ?")
+local Label = Tab:CreateLabel("Morty (me)")
