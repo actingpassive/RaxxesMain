@@ -45,8 +45,42 @@ local Button = Tab:CreateButton({
 })
 
 
+local Button = Tab:CreateButton({
+	Name = "SwagMode ⭐",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+
+
+	end,
+})
+
+
+
+local Button = Tab:CreateButton({
+	Name = "Faded ⭐",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
+
+
+	end,
+})
+
+
+local Button = Tab:CreateButton({
+	Name = "Ray X 💸",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/urmomugly/lua-project/main/Script%26/RAYXV001'))()
+
+
+	end,
+})
+
+
+
+
+
 local Tab = Window:CreateTab("Hood Customs ⭐", 4483362458)
-local Section = Tab:CreateSection("Hood Customs AimLock | press C! (Currently Patched, Im sorry.)")
+local Section = Tab:CreateSection("Hood Customs AimLock | press C! ")
 
 local Button = Tab:CreateButton({
 	Name = "Hood Customs ⭐",
