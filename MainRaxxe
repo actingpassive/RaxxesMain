@@ -49,8 +49,6 @@ local Button = Tab:CreateButton({
 	Name = "SwagMode ⭐",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
-
-
 	end,
 })
 
@@ -60,8 +58,6 @@ local Button = Tab:CreateButton({
 	Name = "Faded ⭐",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
-
-
 	end,
 })
 
@@ -90,7 +86,6 @@ local Button = Tab:CreateButton({
 			Text = 'Currently Patched Im Sorry';
 			Duration = 5;
 		})
-
 	end
 })
 
@@ -124,10 +119,7 @@ local Button = Tab:CreateButton({
             Text = 'Discord Server Copied to clipboard';
             Duration = 5;
         })setclipboard("https://discord.gg/hoodsense")
-        
-
-		end
-
+       		end
 })
 
 
