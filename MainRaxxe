@@ -10,7 +10,7 @@ local Window = Rayfield:CreateWindow({
 		FileName = "Otti's Loader 🎃"
 	},
 
-	KeySystem = true, -- Set this to true to use our key system
+	KeySystem = false, -- Set this to true to use our key system
 	KeySettings = {
 		Title = "Key System | Otti's Place🎃",
 		Subtitle = "Key System",
