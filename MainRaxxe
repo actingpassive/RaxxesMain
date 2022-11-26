@@ -16,7 +16,7 @@ local Window = Rayfield:CreateWindow({
 		Subtitle = "Key System",
 		Note = "Made whit <3 by Otti",
 		FileName = "MortysKey",
-		SaveKey = true,
+		SaveKey = false,
 		GrabKeyFromSite = false, 
 		Key = "otti.wtf"
 	}
@@ -549,7 +549,7 @@ local Button = Tab:CreateButton({
 				local args = {...}
 				if enabled and getnamecallmethod() == "FireServer" and args[2] == "UpdateMousePos" and Settings.rewrittenmain.Enabled and Plr.Character ~= nil then
 		 
-					-- args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*accomidationfactor)
+					 --args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*accomidationfactor)
 					--[[
 					if Settings.rewrittenmain.AIRSHOT == true then
 						if game.Workspace.Players[Plr.Name].Humanoid:GetState() == Enum.HumanoidStateType.Freefall then -- Plr.Character:WaitForChild("Humanoid"):GetState() == Enum.HumanoidStateType.Freefall
