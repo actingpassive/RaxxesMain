@@ -52,7 +52,6 @@ local Button = Tab:CreateButton({
 	Callback = function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 
-
 	end,
 })
 
@@ -61,8 +60,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
 	Name = "Faded ⭐",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
-
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
 	end,
 })
 
@@ -93,7 +91,7 @@ local Button = Tab:CreateButton({
 		
 		getgenv().Prediction = 0.15038
 getgenv().AimPart = "HumanoidRootPart"
-getgenv().Key = "Q"
+getgenv().Key = "C"
 getgenv().DisableKey = "P"
  
 getgenv().FOV = true
@@ -650,6 +648,16 @@ local Button = Tab:CreateButton({
 
 		end
 
+})
+
+
+
+
+local Button = Tab:CreateButton({
+	Name = "ChaseSYNX's Aimlock",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ChaseSYNX/Scripts/main/SynxV_Aimlock"))();
+	end,
 })
 
 
