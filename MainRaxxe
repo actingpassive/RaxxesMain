@@ -1,3 +1,5 @@
+// i made this when i was 13 dont Mind this :happy:
+
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
